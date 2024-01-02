@@ -61,7 +61,7 @@ h1 {
   line-height: normal;
 }
 
-span {
+.bg-red {
   padding: 0.2rem 0.7rem 0.2rem 0;
   border-radius: 5px 20px 20px;
   background-color: #ff5374;
@@ -102,10 +102,66 @@ label {
   font-weight: 400;
   line-height: 24px;
 }
+.label {
+  color: #c1bccc;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
 
 input {
   border-radius: 8px;
   border: 1px solid #e6e6f0;
   background: #fafafc;
   padding: 1rem;
+}
+
+.group-1,
+.group-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #535971;
+  font-family: Staatliches;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.item-2,
+.item-3 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-3 {
+  width: 46%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -2px;
+}
+
+#das,
+#ate {
+  background-color: #ff5374;
+  padding: 0.96rem;
+}
+
+#data-2 {
+  background-color: #ff5374;
 }

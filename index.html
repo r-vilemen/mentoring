@@ -19,9 +19,10 @@
     <div class="bg-up" />
 
     <div class="title">
-      <h1><span>Mentoria</span></h1>
+      <h1><span class="bg-red">Mentoria</span></h1>
       <p>
-        Preencha o formulário abaixo para agendar a sua <span>mentoria.</span>
+        Preencha o formulário abaixo para agendar a sua
+        <span class="bg-red">mentoria.</span>
       </p>
     </div>
 
@@ -29,53 +30,91 @@
       <h3>Informações Pessoais</h3>
       <div class="line"></div>
 
-      <div>
-        <label for="nome">Nome</label>
-        <input
-          type="text"
-          name="nome"
-          id="nome"
-          placeholder="Digite seu nome"
-        />
-        <label for="sobrenome">Sobrenome</label>
-        <input
-          type="text"
-          name="sobrenome"
-          id="sobrenome"
-          placeholder="Digite seu sobrenome"
-        />
+      <div class="group-1">
+        <div class="item">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome"
+          />
+        </div>
+
+        <div class="item">
+          <label for="sobrenome">Sobrenome</label>
+          <input
+            type="text"
+            name="sobrenome"
+            id="sobrenome"
+            placeholder="Digite seu sobrenome"
+          />
+        </div>
       </div>
 
-      <label for="email">E-mail</label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Digite seu e-mail"
-      />
+      <label for="email"
+        >E-mail <span class="label">(digite um e-mail Válido)</span></label
+      >
+      <input type="email" name="email" id="email" />
 
-      <label for="telefone">Telefone</label>
-      <input
-        type="tel"
-        name="telefone"
-        id="telefone"
-        placeholder="Digite seu telefone"
-      />
+      <label for="senha"
+        >Senha <span class="label">(mínimo de 6 caracteres)</span></label
+      >
+      <input type="password" name="senha" id="senha" minlength="6" />
 
-      <label for="data">Data</label>
-      <input type="date" name="data" id="data" />
+      <h3>Informações do mentor</h3>
+      <div class="line"></div>
 
-      <label for="horario">Horário</label>
-      <input type="time" name="horario" id="horario" />
+      <label for="nome-mentor"
+        >Nome do seu mentor
+        <span class="label">(só o primeiro nome)</span></label
+      >
+      <input type="text" name="nome-mentor" id="nome-mentor" />
 
-      <label for="mensagem">Mensagem</label>
-      <textarea
-        name="mensagem"
-        id="mensagem"
-        cols="30"
-        rows="10"
-        placeholder="Digite sua mensagem"
-      ></textarea>
+      <h3>Seus horários disponíveis</h3>
+      <div class="line"></div>
+
+      <h2>Primeira mentoria</h2>
+
+      <div class="group-2">
+        <div class="item-2">
+          <label for="data">Data</label>
+          <input type="date" name="data" id="data" />
+        </div>
+
+        <div class="group-3">
+          <div class="item-3">
+            <label for="das">Das</label>
+            <input type="time" name="das" id="das" />
+          </div>
+
+          <div class="item-3">
+            <label for="ate">Até</label>
+            <input type="time" name="ate" id="ate" />
+          </div>
+        </div>
+      </div>
+      <h2>Segunda mentoria</h2>
+
+      <div class="group-2">
+        <div class="item-2">
+          <label for="data-2">Data</label>
+          <input type="date" name="data-2" id="data-2" />
+        </div>
+
+        <div class="group-3">
+          <div class="item-3">
+            <label for="das-2">Das</label>
+            <input type="time" name="das-2" id="das-2" />
+          </div>
+
+          <div class="item-3">
+            <label for="ate-2">Até</label>
+            <input type="time" name="ate-2" id="ate-2" />
+          </div>
+        </div>
+      </div>
+
       <input type="submit" value="Enviar" />
     </form>
   </body>
