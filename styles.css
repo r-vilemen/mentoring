@@ -210,3 +210,24 @@ button:hover {
   color: #fff;
   font-size: 2rem;
 }
+
+.removeMargin {
+  margin-bottom: -15px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Staatliches;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.footer > a {
+  color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffff;
+  text-decoration: none;
+}
