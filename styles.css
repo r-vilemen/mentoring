@@ -227,7 +227,5 @@ button:hover {
 
 .footer > a {
   color: #000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #ffff;
   text-decoration: none;
 }
