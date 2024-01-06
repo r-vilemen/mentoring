@@ -120,6 +120,10 @@ input {
   padding: 1rem;
 }
 
+input :focus {
+  border: 2px solid #ff5374;
+}
+
 .group-1,
 .group-2 {
   width: 100%;
